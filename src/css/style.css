@@ -29,32 +29,32 @@ main {
     padding: 30px 0;
 }
 
-.cartao-pokedev {
+.card-pokedev {
     display: none;
     max-width: 22.5rem;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.cartao-pokedev.aberto {
+.card-pokedev.open {
     display: block;
 }
 
-.cartao-pokedev img {
+.card-pokedev img {
     width: 100%;
     height: 100%;
     margin-top: 0.625rem;
 }
 
-.cartao-pokedev .cartao-topo {
+.card-pokedev .card-top {
     padding: 1.875rem 2.5rem 0;
 }
 
-.cartao-pokedev .nome {
+.card-pokedev .name {
     margin-bottom: 0.313rem;
 }
 
-.cartao-pokedev .tipo {
+.card-pokedev .type {
     background-color: #ffffff;
     font-size: 0.75rem;
     opacity: 0.7;
@@ -62,69 +62,69 @@ main {
     padding: 2px 10px;
 }
 
-.cartao-pokedev .detalhes {
+.card-pokedev .details {
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cartao-pokedev .cartao-informacoes {
+.card-pokedev .card-information {
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
-    padding: 80px 30px 50px;
-    margin-top: -70px;
+    padding: 5rem 1.875rem 1.875rem;
+    margin-top: -4.375rem;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
-.cartao-pokedev .cartao-informacoes h3 {
-    font-size: 20px;
+.card-pokedev .card-information h3 {
+    font-size: 1.25rem;
     margin-bottom: 15px;
     border-bottom: 1px solid #6b727a;
 }
  
-.cartao-pokedev .cartao-informacoes .descricao {
+.card-pokedev .card-information .description {
     padding: 0 10px;
-    font-size: 15px;
-    max-height: 180px;
+    font-size: 0.938rem;
+    max-height: 11.25rem;
     overflow-y: scroll;
 }
 
-.tipo-eletrico {
+.type-electric {
     background-color: #fcc719;
 }
 
-.tipo-fogo {
+.type-fire {
     background-color: #f15000d2;
 }
 
-.tipo-agua {
-    background-color: #015C98;
+.type-water {
+    background-color: #3fd4e7;
 }
 
-.tipo-grama {
+.type-grass {
     background-color: #49D0B0;
 }
 
-.tipo-trevas {
+.type-ghost {
     background-color: #BA68C8;
 }
 
-.tipo-fada {
+.type-fairy {
     background-color: #e4a0d5;
 }
 
-.listagem {
+.list {
     max-width: 200px;
 }
 
-.listagem .pokedev img {
+.list .pokedev img {
     width: 25%;
 }
 
-.listagem .pokedev {
+.list .pokedev {
     background-color: #6b727a;
     color: #ffffff;
     display: flex;
@@ -139,14 +139,14 @@ main {
     transition: 0.15 ease-in-out;
 }
 
-.listagem .pokedev:hover {
+.list .pokedev:hover {
     transform: scale(1.05);
 }
 
-.listagem .pokedev span {
+.list .pokedev span {
     padding-right: 20px;
 }
 
-.listagem .pokedev.ativo {
+.list .pokedev.active {
     background-color: #fa6668;
 }
